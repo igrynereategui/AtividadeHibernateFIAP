@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="conterv1" directorySegmentName="seg_0" id="99583F95-09AB-55C0-2E62-D31FB0F79F1D">
+<createdBy>igryn</createdBy>
+<createdTime>2022-03-03 18:04:49 UTC</createdTime>
+<ownerDesignName>DataModelingTeste</ownerDesignName>
+<engineerTo>
+<item key="92490E85-A615-F7CC-CE72-686656E3D77F" value="true"/>
+</engineerTo>
+<sourcePk>879B63D1-C034-8128-D495-773D4DFCEBD5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EE762641-ECEA-0571-8F8F-78BFED43C3CB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3FD26C0A-04AE-E34E-6FFB-2084DEF94C04</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

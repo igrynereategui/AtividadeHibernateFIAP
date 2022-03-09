@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D52A95CF-C4BF-6001-3E78-08E9754F4950" name="T_PARCEIRO">
+<createdBy>igryn</createdBy>
+<createdTime>2022-03-03 15:35:18 UTC</createdTime>
+<ownerDesignName>DataModelingTeste</ownerDesignName>
+<engineerTo>
+<item key="92490E85-A615-F7CC-CE72-686656E3D77F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_parceiro" id="CBDAD87B-C017-9817-DA8A-D1AB1EE3EE4A">
+<createdBy>igryn</createdBy>
+<createdTime>2022-03-03 17:25:01 UTC</createdTime>
+<ownerDesignName>DataModelingTeste</ownerDesignName>
+<engineerTo>
+<item key="92490E85-A615-F7CC-CE72-686656E3D77F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_parceiro" id="3B1A2D6B-15DA-6399-5920-9B665FFFEE95">
+<createdBy>igryn</createdBy>
+<createdTime>2022-03-03 17:25:12 UTC</createdTime>
+<ownerDesignName>DataModelingTeste</ownerDesignName>
+<engineerTo>
+<item key="92490E85-A615-F7CC-CE72-686656E3D77F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cnpj" id="9E2D201E-C120-E59C-2CA7-A363328548E8">
+<createdBy>igryn</createdBy>
+<createdTime>2022-03-03 17:25:28 UTC</createdTime>
+<ownerDesignName>DataModelingTeste</ownerDesignName>
+<engineerTo>
+<item key="92490E85-A615-F7CC-CE72-686656E3D77F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qtd_desc" id="1B90F0A6-7358-802B-94A3-8797CE5879E9">
+<createdBy>igryn</createdBy>
+<createdTime>2022-03-03 17:29:34 UTC</createdTime>
+<ownerDesignName>DataModelingTeste</ownerDesignName>
+<engineerTo>
+<item key="92490E85-A615-F7CC-CE72-686656E3D77F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C631D302-821A-F90A-B5FF-E06AF1734832" name="T_PARCEIRO PK">
+<createdBy>igryn</createdBy>
+<createdTime>2022-03-03 17:25:11 UTC</createdTime>
+<ownerDesignName>DataModelingTeste</ownerDesignName>
+<engineerTo>
+<item key="92490E85-A615-F7CC-CE72-686656E3D77F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CBDAD87B-C017-9817-DA8A-D1AB1EE3EE4A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

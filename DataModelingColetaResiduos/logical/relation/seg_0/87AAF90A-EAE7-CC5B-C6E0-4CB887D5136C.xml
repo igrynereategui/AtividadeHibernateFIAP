@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="cadastrar" directorySegmentName="seg_0" id="87AAF90A-EAE7-CC5B-C6E0-4CB887D5136C">
+<createdBy>igryn</createdBy>
+<createdTime>2022-03-03 18:57:55 UTC</createdTime>
+<ownerDesignName>DataModelingTeste</ownerDesignName>
+<engineerTo>
+<item key="92490E85-A615-F7CC-CE72-686656E3D77F" value="true"/>
+</engineerTo>
+<sourcePk>604BC839-8FEC-6997-8E7D-9630C1A60FA1</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>89AE10F1-F552-D526-78C8-81423D1EC87A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B3664E4D-535B-F29D-D771-5D3B7F50E2ED</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
